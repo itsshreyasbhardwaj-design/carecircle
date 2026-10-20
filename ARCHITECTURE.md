@@ -20,7 +20,7 @@
 
 ### Deliberate omissions
 
-- **No ORM.** Drizzle and Prisma were both options. The schema is 25 tables of
+- **No ORM.** Drizzle and Prisma were both options. The schema is 30 tables of
   plain SQL with constraints that an ORM would obscure, and the authorisation
   model depends on composing SQL fragments (`profileScopeFilter`) that an ORM
   makes awkward. The cost is hand-written queries; the benefit is that the
@@ -113,7 +113,7 @@ never enforcement.
 
 ## Data model
 
-25 tables. Full DDL with comments in `src/db/migrations/001_init.sql`.
+30 tables (29 relational plus one FTS5 virtual table). Full DDL with comments in `src/db/migrations/001_init.sql`.
 
 **Identity** — `users`, `sessions`, `user_settings`, `rate_limits`
 

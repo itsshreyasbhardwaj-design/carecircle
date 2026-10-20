@@ -21,7 +21,7 @@ Counts refer to the suite recorded in [TESTING.md](TESTING.md).
 | Repository and environment inspection | Verified | Node 24.16, no Homebrew, no Rust — informed every dependency choice |
 | Architecture and technology selection | Verified | `node:sqlite` and Argon2id-in-WASM-free-JS both probed before adoption |
 | Project initialisation | Verified | `npm run verify` passes end to end |
-| Database with migrations | Verified | 25 tables, append-only migrations, SHA-256 recorded per file |
+| Database with migrations | Verified | 30 tables, append-only migrations, SHA-256 recorded per file |
 | Authentication foundation | Verified | 13 account/session tests |
 | Design system | Implemented | Semantic tokens, complete light and dark themes |
 | Component library | Implemented | ~20 primitives on native HTML elements |
