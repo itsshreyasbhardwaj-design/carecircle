@@ -1,0 +1,27 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# Local data: real health information must never be committed. The whole
+# directory is ignored — the app creates it on first run (see ensureDirs).
+# Inside it: the SQLite database, encrypted document blobs, the generated key
+# file, and any downloaded OCR models.
+data/
+
+# Locally generated secrets. NEVER commit these.
+.env
+.env.local
+.env*.local
+secrets/
+
+# Test output
+test-results/
+playwright-report/
+coverage/
+probe.mjs
+
+# Playwright
+test-results/
+.playwright-artifacts-*/
