@@ -1,5 +1,7 @@
 # CareCircle
 
+[![CI](https://github.com/itsshreyasbhardwaj-design/carecircle/actions/workflows/ci.yml/badge.svg)](https://github.com/itsshreyasbhardwaj-design/carecircle/actions/workflows/ci.yml)
+
 **Your family's care, coordinated.**
 
 One secure place to organise medical records, appointments, medication routines and
@@ -118,4 +120,6 @@ product, and the UI says so where a user might reasonably expect otherwise.
 
 ## Licence
 
-No licence has been chosen yet. Treat it as all rights reserved until one is added.
+MIT — see [LICENSE](LICENSE). The warranty disclaimer matters here: this is a
+local development build, and nothing about the licence makes it fit for use with
+real patient information. See [DEPLOYMENT.md](DEPLOYMENT.md).
